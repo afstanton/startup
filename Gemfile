@@ -62,5 +62,8 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  # Easily rename this app. Remove when done renaming it.
+  gem 'rename'
 end
 
