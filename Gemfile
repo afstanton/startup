@@ -63,6 +63,9 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 
+  # Ensure licensing
+  gem 'license_finder', git: 'git@github.com:mvz/LicenseFinder.git', branch: 'psych-4-compatibility'
+
   # Easily rename this app. Remove when done renaming it.
   gem 'rename'
 end
