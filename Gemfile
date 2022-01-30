@@ -66,6 +66,9 @@ group :development do
   # Ensure licensing
   gem 'license_finder', git: 'git@github.com:mvz/LicenseFinder.git', branch: 'psych-4-compatibility'
 
+  # Git hooks help automate code quality
+  gem 'overcommit'
+
   # Easily rename this app. Remove when done renaming it.
   gem 'rename'
 end
