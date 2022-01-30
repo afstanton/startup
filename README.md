@@ -22,6 +22,8 @@ The [license_finder](https://github.com/pivotal/LicenseFinder) gem is important 
 
 I use [overcommit](https://github.com/sds/overcommit) to manage git hooks for automating code quality. You obviously don't have to, but I recommend it.
 
+[Rubocop](https://github.com/rubocop/rubocop) is the standard for basic ruby code quality checks. I've also added some commonly used plugins.
+
 # Related projects
 
 [Suspenders](https://github.com/thoughtbot/suspenders) is an app generator that creates opinionated apps. As this is not a generator, this serves a different purpose, but I plan on looking into the gems they use.

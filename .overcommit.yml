@@ -34,3 +34,6 @@
 PreCommit:
   LicenseFinder:
     enabled: true
+
+  RuboCop:
+    enabled: false
