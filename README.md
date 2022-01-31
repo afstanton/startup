@@ -24,6 +24,8 @@ I use [overcommit](https://github.com/sds/overcommit) to manage git hooks for au
 
 [Rubocop](https://github.com/rubocop/rubocop) is the standard for basic ruby code quality checks. I've also added some commonly used plugins.
 
+[RSpec Rails](https://github.com/rspec/rspec-rails), [FactoryBot Rails](https://github.com/thoughtbot/factory_bot_rails), and [DatabaseCleaner](https://github.com/DatabaseCleaner/database_cleaner) are the de facto standard for almost every Rails app I've worked with.
+
 # Related projects
 
 [Suspenders](https://github.com/thoughtbot/suspenders) is an app generator that creates opinionated apps. As this is not a generator, this serves a different purpose, but I plan on looking into the gems they use.
