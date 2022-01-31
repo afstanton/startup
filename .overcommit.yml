@@ -36,4 +36,8 @@ PreCommit:
     enabled: true
 
   RuboCop:
-    enabled: false
+    enabled: true
+
+PrePush:
+  RSpec:
+    enabled: true

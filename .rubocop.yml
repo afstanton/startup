@@ -4,5 +4,8 @@ require:
   - rubocop-rake
   - rubocop-rspec
 
+Metrics/BlockLength:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false
