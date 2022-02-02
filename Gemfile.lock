@@ -81,7 +81,7 @@ GEM
       tzinfo (~> 2.0)
     ast (2.4.2)
     bindex (0.8.1)
-    bootsnap (1.10.2)
+    bootsnap (1.10.3)
       msgpack (~> 1.2)
     builder (3.2.4)
     childprocess (4.1.0)
