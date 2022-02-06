@@ -35,6 +35,9 @@ PreCommit:
   LicenseFinder:
     enabled: true
 
+  Flay:
+    enabled: true
+
   RailsBestPractices:
     enabled: true
 

@@ -79,6 +79,9 @@ group :development do
   # Git hooks help automate code quality
   gem 'overcommit'
 
+  # Flay is a code quality tool that checks for code smells
+  gem 'flay'
+
   # Rails best practices
   gem 'rails_best_practices'
 

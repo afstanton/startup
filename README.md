@@ -34,6 +34,8 @@ I use [overcommit](https://github.com/sds/overcommit) to manage git hooks for au
 
 [RailsBestPractices](https://github.com/flyerhzm/rails_best_practices) does what it says - checks for common best practices when using Rails.
 
+[Flay]() checks for structural similarities. Good for calling out places for refactoring.
+
 # Testing
 
 [RSpec Rails](https://github.com/rspec/rspec-rails), [FactoryBot Rails](https://github.com/thoughtbot/factory_bot_rails), [DatabaseCleaner](https://github.com/DatabaseCleaner/database_cleaner), and [Faker](https://github.com/faker-ruby/faker) are the de facto standard for almost every Rails app I've worked with.
