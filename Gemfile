@@ -79,6 +79,9 @@ group :development do
   # Git hooks help automate code quality
   gem 'overcommit'
 
+  # Reek checks code for smells
+  gem 'reek'
+
   # Rubocop and family are great for code quality
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false

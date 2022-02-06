@@ -35,6 +35,9 @@ PreCommit:
   LicenseFinder:
     enabled: true
 
+  Reek:
+    enabled: true
+
   RuboCop:
     enabled: true
 

@@ -12,6 +12,10 @@ What this is not.
 
 This isn't an app generator, nor is it a template to run "rails new" against. Maybe I'll build one of those someday, but for the time being you just clone this, rename it, and hit the ground running.
 
+Why so many code quality gems?
+
+I'm building this as a solo dev. I don't have anyone to do real code reviews on this, so I need things to call out the most common, most basic mistakes that get made. I tend to hack together whatever works first and move on, and these help me write better code.
+
 # Relevant gems used
 
 I'm not going to go into detail on every single gem I add here, but some should be called out.
@@ -22,7 +26,13 @@ The [license_finder](https://github.com/pivotal/LicenseFinder) gem is important 
 
 I use [overcommit](https://github.com/sds/overcommit) to manage git hooks for automating code quality. You obviously don't have to, but I recommend it.
 
+# Code Quality
+
 [Rubocop](https://github.com/rubocop/rubocop) is the standard for basic ruby code quality checks. I've also added some commonly used plugins.
+
+[Reek](https://github.com/troessner/reek) calls out code smells.
+
+# Testing
 
 [RSpec Rails](https://github.com/rspec/rspec-rails), [FactoryBot Rails](https://github.com/thoughtbot/factory_bot_rails), [DatabaseCleaner](https://github.com/DatabaseCleaner/database_cleaner), and [Faker](https://github.com/faker-ruby/faker) are the de facto standard for almost every Rails app I've worked with.
 
