@@ -34,7 +34,7 @@ I use [overcommit](https://github.com/sds/overcommit) to manage git hooks for au
 
 [RailsBestPractices](https://github.com/flyerhzm/rails_best_practices) does what it says - checks for common best practices when using Rails.
 
-[Flay]() checks for structural similarities. Good for calling out places for refactoring.
+[Flay](https://github.com/seattlerb/flay) checks for structural similarities. Good for calling out places for refactoring.
 
 # Testing
 
