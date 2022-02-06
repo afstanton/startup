@@ -79,6 +79,9 @@ group :development do
   # Git hooks help automate code quality
   gem 'overcommit'
 
+  # Rails best practices
+  gem 'rails_best_practices'
+
   # Reek checks code for smells
   gem 'reek'
 

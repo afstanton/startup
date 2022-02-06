@@ -14,7 +14,7 @@ This isn't an app generator, nor is it a template to run "rails new" against. Ma
 
 Why so many code quality gems?
 
-I'm building this as a solo dev. I don't have anyone to do real code reviews on this, so I need things to call out the most common, most basic mistakes that get made. I tend to hack together whatever works first and move on, and these help me write better code.
+I'm building this as a solo dev. I don't have anyone to do real code reviews on this, so I need things to call out the most common, most basic mistakes that get made. I tend to hack together whatever works first and move on, and these help me write better code. Plus, I just like them.
 
 # Relevant gems used
 
@@ -31,6 +31,8 @@ I use [overcommit](https://github.com/sds/overcommit) to manage git hooks for au
 [Rubocop](https://github.com/rubocop/rubocop) is the standard for basic ruby code quality checks. I've also added some commonly used plugins.
 
 [Reek](https://github.com/troessner/reek) calls out code smells.
+
+[RailsBestPractices](https://github.com/flyerhzm/rails_best_practices) does what it says - checks for common best practices when using Rails.
 
 # Testing
 

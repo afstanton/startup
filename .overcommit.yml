@@ -35,6 +35,9 @@ PreCommit:
   LicenseFinder:
     enabled: true
 
+  RailsBestPractices:
+    enabled: true
+
   Reek:
     enabled: true
 
