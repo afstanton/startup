@@ -29,3 +29,9 @@
     :why: Required for Rails
     :versions: []
     :when: 2022-01-30 03:11:28.718886000 Z
+- - :permit
+  - ISC
+  - :who: afstanton
+    :why: ISC is basically MIT simplified
+    :versions: []
+    :when: 2022-02-06 17:47:36.673809000 Z

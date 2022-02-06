@@ -89,6 +89,9 @@ group :development do
   # Reek checks code for smells
   gem 'reek'
 
+  # Rubycritic generates code quality reports
+  gem 'rubycritic', require: false
+
   # Rubocop and family are great for code quality
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
