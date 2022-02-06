@@ -99,6 +99,15 @@ group :development do
   gem 'rubocop-rake', require: false
   gem 'rubocop-rspec', require: false
 
+  # Profiling (May move this out of development once auth is in place)
+  gem 'rack-mini-profiler'
+
+  # For memory profiling
+  gem 'memory_profiler'
+
+  # For call-stack profiling flamegraphs
+  gem 'stackprof'
+
   # Easily rename this app. Remove when done renaming it.
   gem 'rename'
 end

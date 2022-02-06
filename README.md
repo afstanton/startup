@@ -44,6 +44,10 @@ I use [overcommit](https://github.com/sds/overcommit) to manage git hooks for au
 
 [SimpleCov](https://github.com/simplecov-ruby/simplecov) helps me make sure I have adequate test coverage.
 
+# Profiling
+
+[rack-mini-profiler](https://github.com/MiniProfiler/rack-mini-profiler) is a good starting point for identifying slow spots in an app.
+
 # Related projects
 
 [Suspenders](https://github.com/thoughtbot/suspenders) is an app generator that creates opinionated apps. As this is not a generator, this serves a different purpose, but I plan on looking into the gems they use.
