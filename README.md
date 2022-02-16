@@ -16,6 +16,10 @@ Why so many code quality gems?
 
 I'm building this as a solo dev. I don't have anyone to do real code reviews on this, so I need things to call out the most common, most basic mistakes that get made. I tend to hack together whatever works first and move on, and these help me write better code. Plus, I just like them.
 
+I plan on getting this set up such that `docker compose up` will spin up the app with all dependencies, but I'm not great at devops so that will take some time.
+
+I also plan on getting this set up to use GitHub Actions, but again, that will take some time.
+
 # Relevant gems used
 
 I'm not going to go into detail on every single gem I add here, but some should be called out.
@@ -71,3 +75,16 @@ Additionally, I have pre-accepted the following licenses in this app as part of 
 [ISC](https://spdx.org/licenses/ISC.html)
 
 As I come across useful gems with GPL licenses I will note them below and add the particular licenses to this section as "restricted". You are free to use those in your projects, but as noted above, many corporations have issues with GPL software.
+
+[GPL-3.0+](https://spdx.org/licenses/GPL-3.0+.html)
+
+The Brakeman license is an edge case, as it allows you to use it freely to analyze the project's code, but not to offer Brakeman itself as a service without paying. As I cannot predict what you will do with your project, I excluded it.
+
+[Brakeman Public Use License](https://github.com/presidentbeef/brakeman/blob/main/LICENSE.md)
+
+# Useful Gems
+
+Following are gems that are really handy to have, but have been excluded from this project due to licensing. I suggest you consider them anyway.
+
+[bundler-audit](https://github.com/rubysec/bundler-audit) checks for vulnerable versions of gems. [GPL-3.0+](https://spdx.org/licenses/GPL-3.0+.html)
+[Brakeman](https://github.com/presidentbeef/brakeman) checks rails apps for security issues. [Brakeman Public Use License](https://github.com/presidentbeef/brakeman/blob/main/LICENSE.md)

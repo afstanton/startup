@@ -35,3 +35,15 @@
     :why: ISC is basically MIT simplified
     :versions: []
     :when: 2022-02-06 17:47:36.673809000 Z
+- - :restrict
+  - GPL-3.0+
+  - :who: afstanton
+    :why: No GPL
+    :versions: []
+    :when: 2022-02-16 03:00:50.424652000 Z
+- - :restrict
+  - Brakeman Public Use License
+  - :who: afstanton
+    :why: Edge case
+    :versions: []
+    :when: 2022-02-16 03:16:10.849953000 Z
