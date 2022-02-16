@@ -75,7 +75,7 @@ group :development do
   # gem "spring"
 
   # Ensure licensing
-  gem 'license_finder', git: 'git@github.com:mvz/LicenseFinder.git', branch: 'psych-4-compatibility'
+  gem 'license_finder', github: 'pivotal/LicenseFinder', branch: 'master'
 
   # Git hooks help automate code quality
   gem 'overcommit'
