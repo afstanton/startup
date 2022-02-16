@@ -91,4 +91,5 @@ The Brakeman license is an edge case, as it allows you to use it freely to analy
 Following are gems that are really handy to have, but have been excluded from this project due to licensing. I suggest you consider them anyway.
 
 [bundler-audit](https://github.com/rubysec/bundler-audit) checks for vulnerable versions of gems. [GPL-3.0+](https://spdx.org/licenses/GPL-3.0+.html)
+
 [Brakeman](https://github.com/presidentbeef/brakeman) checks rails apps for security issues. [Brakeman Public Use License](https://github.com/presidentbeef/brakeman/blob/main/LICENSE.md)
