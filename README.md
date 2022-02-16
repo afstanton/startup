@@ -65,9 +65,13 @@ I use [overcommit](https://github.com/sds/overcommit) to manage git hooks for au
 This is released under the [MIT](https://spdx.org/licenses/MIT.html) license, but the default creation of a Rails app brings in several gems with a variety of licences. If you want to use Rails apps at all, you basically have to accept all of these.
 
 [MIT](https://spdx.org/licenses/MIT.html)
+
 [ruby](https://spdx.org/licenses/Ruby.html)
+
 [Apache 2.0](https://spdx.org/licenses/Apache-2.0.html)
+
 [Simplified BSD](https://spdx.org/licenses/BSD-2-Clause.html)
+
 [New BSD](https://spdx.org/licenses/BSD-3-Clause.html)
 
 Additionally, I have pre-accepted the following licenses in this app as part of setting up useful gems.
