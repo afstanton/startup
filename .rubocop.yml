@@ -4,6 +4,9 @@ require:
   - rubocop-rake
   - rubocop-rspec
 
+AllCops:
+  NewCops: enable
+
 Metrics/BlockLength:
   Enabled: false
 
