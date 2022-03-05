@@ -1,16 +1,3 @@
-GIT
-  remote: https://github.com/pivotal/LicenseFinder.git
-  revision: fc71740010ba73615452941a890d4a0a0b7904a4
-  branch: master
-  specs:
-    license_finder (7.0.0)
-      bundler
-      rubyzip (>= 1, < 3)
-      thor (~> 1.2)
-      tomlrb (>= 1.3, < 2.1)
-      with_env (= 1.1.0)
-      xml-simple (~> 1.1.9)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -148,6 +135,13 @@ GEM
     kwalify (0.7.2)
     launchy (2.5.0)
       addressable (~> 2.7)
+    license_finder (7.0.0)
+      bundler
+      rubyzip (>= 1, < 3)
+      thor (~> 1.2)
+      tomlrb (>= 1.3, < 2.1)
+      with_env (= 1.1.0)
+      xml-simple (~> 1.1.9)
     loofah (2.14.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -358,7 +352,7 @@ DEPENDENCIES
   flay
   importmap-rails
   jbuilder
-  license_finder!
+  license_finder
   memory_profiler
   overcommit
   pg (~> 1.3)

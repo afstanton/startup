@@ -72,7 +72,7 @@ group :development do
   # gem "spring"
 
   # Ensure licensing
-  gem 'license_finder', github: 'pivotal/LicenseFinder', branch: 'master'
+  gem 'license_finder'
 
   # Git hooks help automate code quality
   gem 'overcommit'
