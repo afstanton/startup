@@ -232,6 +232,7 @@ GEM
       zeitwerk (~> 2.5)
     rainbow (3.1.1)
     rake (13.0.6)
+    redis (4.6.0)
     reek (6.1.0)
       kwalify (~> 0.7.0)
       parser (~> 3.1.0)
@@ -361,6 +362,7 @@ DEPENDENCIES
   rack-mini-profiler
   rails (~> 7.0.2, >= 7.0.2.2)
   rails_best_practices
+  redis (~> 4.0)
   reek
   rename
   rspec-rails
