@@ -48,6 +48,8 @@ I use [overcommit](https://github.com/sds/overcommit) to manage git hooks for au
 
 [SimpleCov](https://github.com/simplecov-ruby/simplecov) helps me make sure I have adequate test coverage.
 
+[Letter Opener](https://github.com/ryanb/letter_opener) and [letter_opener_web](https://github.com/fgrehm/letter_opener_web) are just incredibly useful for visually inspecting emails in dev mode. (Yes, I'm aware of "/spec/mailers/previews", but this is hard to beat.)
+
 # Profiling
 
 [rack-mini-profiler](https://github.com/MiniProfiler/rack-mini-profiler) is a good starting point for identifying slow spots in an app.

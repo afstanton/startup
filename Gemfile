@@ -105,6 +105,10 @@ group :development do
   # For call-stack profiling flamegraphs
   gem 'stackprof'
 
+  # For testing emails in development without actually sending them
+  gem 'letter_opener'
+  gem 'letter_opener_web'
+
   # Easily rename this app. Remove when done renaming it.
   gem 'rename'
 end
