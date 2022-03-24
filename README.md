@@ -97,13 +97,13 @@ This is released under the [MIT](https://spdx.org/licenses/MIT.html) license, bu
 
 [New BSD](https://spdx.org/licenses/BSD-3-Clause.html)
 
-[LGPL](http://www.gnu.org/licenses/lgpl-3.0.html)
-
-Why allow the LGPL but not the GPL? If you look at the GNU projects own [page](http://www.gnu.org/licenses/why-not-lgpl.html) arguing why *not* to use the LGPL, it says "The choice of license makes a big difference: using the Lesser GPL permits use of the library in proprietary programs; using the ordinary GPL for a library makes it available only for free programs." While they use this as an argument for not using it, it does clearly allow one to use it in proprietary software, meaning that your lawyers should have no problems with you using it in software you build a business around.
-
 Additionally, I have pre-accepted the following licenses in this app as part of setting up useful gems.
 
 [ISC](https://spdx.org/licenses/ISC.html)
+
+[LGPL](http://www.gnu.org/licenses/lgpl-3.0.html)
+
+Why allow the LGPL but not the GPL? If you look at the GNU projects own [page](http://www.gnu.org/licenses/why-not-lgpl.html) arguing why *not* to use the LGPL, it says "The choice of license makes a big difference: using the Lesser GPL permits use of the library in proprietary programs; using the ordinary GPL for a library makes it available only for free programs." While they use this as an argument for not using it, it does clearly allow one to use it in proprietary software, meaning that your lawyers should have no problems with you using it in software you build a business around.
 
 As I come across useful gems with GPL licenses I will note them below and add the particular licenses to this section as "restricted". You are free to use those in your projects, but as noted above, many corporations have issues with GPL software.
 
