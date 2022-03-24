@@ -112,6 +112,10 @@ group :development do
   gem 'letter_opener'
   gem 'letter_opener_web'
 
+  # For better error reporting
+  gem 'better_errors'
+  gem 'binding_of_caller'
+
   # Easily rename this app. Remove when done renaming it.
   gem 'rename'
 end
