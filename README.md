@@ -20,6 +20,11 @@ I plan on getting this set up such that `docker compose up` will spin up the app
 
 I also plan on getting this set up to use GitHub Actions, but again, that will take some time.
 
+# Dependencies
+
+- PostgreSQL
+- Redis
+
 # Relevant gems used
 
 I'm not going to go into detail on every single gem I add here, but some should be called out.
@@ -29,6 +34,22 @@ This uses the [rename](https://github.com/morshedalam/rename) gem. You'll need t
 The [license_finder](https://github.com/pivotal/LicenseFinder) gem is important because some corporate environments prohibit certain open source license, in particular those of the GPL family. Some licenses are simply necessary to accept - you can't build a Rails app if you reject them. I've accepted those ahead of time, and I'll accept others if necessary, but I plan on trying to avoid those from the GPL family so as to minimize issues. (The LGPL is acceptable, though, and I will go into why later.)
 
 I use [overcommit](https://github.com/sds/overcommit) to manage git hooks for automating code quality. You obviously don't have to, but I recommend it.
+
+[Sidekiq](https://github.com/mperham/sidekiq) is probably the best background processing system for Rails that I've found. It is released under the LGPL, which for a moment gave me pause on including this, but I did my homework and decided it was fine. Regardless, any background jobs I get around to building will use ActiveJob (despite losing some Sidekiq functionality), so if you want to rip out Sidekiq and replace it, it should not be too painful.
+
+# Environment variables
+
+You'll need to define these:
+
+- REDIS_URL
+
+In production, you will also need:
+
+- STARTUP_DATABASE_PASSWORD (adjust to suit your app once you've renamed it)
+
+Optional variables:
+
+- RAILS_MAX_THREADS (defaults to 5)
 
 # Code Quality
 
@@ -75,6 +96,10 @@ This is released under the [MIT](https://spdx.org/licenses/MIT.html) license, bu
 [Simplified BSD](https://spdx.org/licenses/BSD-2-Clause.html)
 
 [New BSD](https://spdx.org/licenses/BSD-3-Clause.html)
+
+[LGPL](http://www.gnu.org/licenses/lgpl-3.0.html)
+
+Why allow the LGPL but not the GPL? If you look at the GNU projects own [page](http://www.gnu.org/licenses/why-not-lgpl.html) arguing why *not* to use the LGPL, it says "The choice of license makes a big difference: using the Lesser GPL permits use of the library in proprietary programs; using the ordinary GPL for a library makes it available only for free programs." While they use this as an argument for not using it, it does clearly allow one to use it in proprietary software, meaning that your lawyers should have no problems with you using it in software you build a business around.
 
 Additionally, I have pre-accepted the following licenses in this app as part of setting up useful gems.
 

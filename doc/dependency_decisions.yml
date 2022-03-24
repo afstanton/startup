@@ -47,3 +47,9 @@
     :why: Edge case
     :versions: []
     :when: 2022-02-16 03:16:10.849953000 Z
+- - :permit
+  - LGPL
+  - :who: afstanton
+    :why:
+    :versions: []
+    :when: 2022-03-24 01:28:41.869068000 Z
