@@ -303,6 +303,8 @@ GEM
       rubocop (~> 1.0)
     rubocop-rspec (2.15.0)
       rubocop (~> 1.33)
+    rubocop-shopify (2.10.1)
+      rubocop (~> 1.35)
     ruby-progressbar (1.11.0)
     ruby_parser (3.19.1)
       sexp_processor (~> 4.16)
@@ -400,6 +402,7 @@ DEPENDENCIES
   rubocop-rails
   rubocop-rake
   rubocop-rspec
+  rubocop-shopify
   rubycritic
   sidekiq
   simplecov

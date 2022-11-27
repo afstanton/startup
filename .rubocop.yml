@@ -1,3 +1,6 @@
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+
 require:
   - rubocop-performance
   - rubocop-rails
@@ -10,5 +13,14 @@ AllCops:
 Metrics/BlockLength:
   Enabled: false
 
+Rails/FilePath:
+  EnforcedStyle: arguments
+
 Style/Documentation:
   Enabled: false
+
+Style/MethodCallWithArgsParentheses:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
