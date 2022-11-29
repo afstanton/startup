@@ -326,7 +326,7 @@ GEM
     simplecov-html (0.12.3)
     simplecov_json_formatter (0.1.4)
     stackprof (0.2.23)
-    stimulus-rails (1.1.1)
+    stimulus-rails (1.2.0)
       railties (>= 6.0.0)
     thor (1.2.1)
     thread_safe (0.3.6)
