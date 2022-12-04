@@ -96,8 +96,8 @@ GEM
       activerecord (>= 5.a)
       database_cleaner-core (~> 2.0.0)
     database_cleaner-core (2.0.1)
-    debug (1.6.3)
-      irb (>= 1.3.6)
+    debug (1.7.0)
+      irb (>= 1.5.0)
       reline (>= 0.3.1)
     debug_inspector (1.1.0)
     descendants_tracker (0.0.4)
@@ -133,7 +133,7 @@ GEM
       railties (>= 6.0.0)
     iniparse (1.5.0)
     io-console (0.5.11)
-    irb (1.5.0)
+    irb (1.5.1)
       reline (>= 0.3.0)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
@@ -159,8 +159,11 @@ GEM
     loofah (2.19.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
-    mail (2.7.1)
+    mail (2.8.0)
       mini_mime (>= 0.1.1)
+      net-imap
+      net-pop
+      net-smtp
     marcel (1.0.2)
     memory_profiler (1.0.1)
     method_source (1.0.0)
@@ -283,7 +286,7 @@ GEM
       rubocop-ast (>= 1.23.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
-    rubocop-ast (1.23.0)
+    rubocop-ast (1.24.0)
       parser (>= 3.1.1.0)
     rubocop-performance (1.15.1)
       rubocop (>= 1.7.0, < 2.0)
@@ -299,7 +302,7 @@ GEM
     rubocop-shopify (2.10.1)
       rubocop (~> 1.35)
     ruby-progressbar (1.11.0)
-    ruby_parser (3.19.1)
+    ruby_parser (3.19.2)
       sexp_processor (~> 4.16)
     rubycritic (4.7.0)
       flay (~> 2.8)
@@ -405,7 +408,7 @@ DEPENDENCIES
   web-console
 
 RUBY VERSION
-   ruby 3.1.2p20
+   ruby 3.1.3p185
 
 BUNDLED WITH
-   2.3.7
+   2.3.26
