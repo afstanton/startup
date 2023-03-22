@@ -335,7 +335,7 @@ GEM
       simplecov_json_formatter (~> 0.1)
     simplecov-html (0.12.3)
     simplecov_json_formatter (0.1.4)
-    stackprof (0.2.23)
+    stackprof (0.2.24)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
     thor (1.2.1)
