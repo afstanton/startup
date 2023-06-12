@@ -195,7 +195,7 @@ GEM
     parser (3.2.2.1)
       ast (~> 2.4.1)
     path_expander (1.1.1)
-    pg (1.4.6)
+    pg (1.5.3)
     propshaft (0.7.0)
       actionpack (>= 7.0.0)
       activesupport (>= 7.0.0)
@@ -390,7 +390,7 @@ DEPENDENCIES
   license_finder
   memory_profiler
   overcommit
-  pg (~> 1.4)
+  pg (~> 1.5)
   propshaft
   puma (~> 6.2)
   rack-mini-profiler
